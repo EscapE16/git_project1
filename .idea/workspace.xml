@@ -4,15 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e8e17163-189e-42a9-9c37-acbd5c7bb903" name="Changes" comment="First commit">
-      <change afterPath="$PROJECT_DIR$/../../git_project1/git_project1/.idea/git_project1.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../git_project1/git_project1/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../git_project1/git_project1/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../git_project1/git_project1/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../git_project1/git_project1/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../git_project1/git_project1/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../git_project1/git_project1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../git_project1/git_project1/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../git_project1/git_project1/main.py" afterDir="false" />
+    <list default="true" id="e8e17163-189e-42a9-9c37-acbd5c7bb903" name="Changes" comment="&#10;second commit">
+      <change beforePath="$PROJECT_DIR$/../../git_project1/git_project1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../git_project1/git_project1/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +13,12 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../git_project1/git_project1" />
   </component>
   <component name="GitHubPullRequestSearchHistory"><![CDATA[{
@@ -99,7 +98,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733145958601</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="&#10;second commit">
+      <option name="closed" value="true" />
+      <created>1733147403192</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1733147403192</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -115,6 +122,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="First commit" />
+    <MESSAGE value="&#10;second commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="&#10;second commit" />
   </component>
 </project>
