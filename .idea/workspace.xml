@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e8e17163-189e-42a9-9c37-acbd5c7bb903" name="Changes" comment="second task">
+    <list default="true" id="e8e17163-189e-42a9-9c37-acbd5c7bb903" name="Changes" comment="разные кружки">
       <change beforePath="$PROJECT_DIR$/../../git_project1/git_project1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../git_project1/git_project1/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../git_project1/git_project1/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../git_project1/git_project1/main.py" afterDir="false" />
     </list>
@@ -123,7 +123,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733149925703</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="разные кружки">
+      <option name="closed" value="true" />
+      <created>1733160387128</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1733160387128</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -142,6 +150,7 @@
     <MESSAGE value="&#10;second commit" />
     <MESSAGE value="ui" />
     <MESSAGE value="second task" />
-    <option name="LAST_COMMIT_MESSAGE" value="second task" />
+    <MESSAGE value="разные кружки" />
+    <option name="LAST_COMMIT_MESSAGE" value="разные кружки" />
   </component>
 </project>
