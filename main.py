@@ -61,25 +61,22 @@ class Example(QMainWindow):
         super(Example, self).__init__()
         f = io.StringIO(UI)
         uic.loadUi(f, self)
+        self.circles = []
 
         self.pushButton.clicked.connect(self.run)
 
-    def run(self):
-        x = random.randint(0, self.width() - 50)
-        y = random.randint(0, self.height() - 50)
-        diameter = random.randint(20, 100)
-        self.circles.append((QPoint(x, y), diameter))
-
-        self.update()
-
     def paintEvent(self, event):
         painter = QPainter(self)
-        painter.setRenderHint(QPainter.Antialiasing)
-        painter.setBrush(QColor(255, 255, 0))
+        for circle in self.circles:
+            painter.setBrush(QColor(255, 255, 0))
+            painter.drawEllipse(circle[0], circle[1], circle[2], circle[2])
 
-        for center, diameter in self.circles:
-            painter.drawEllipse(center, diameter // 2, diameter // 2)
-
+    def run(self):
+        diameter = random.randint(20, 100)
+        x = random.randint(0, self.width() - diameter)
+        y = random.randint(0, self.height() - diameter)
+        self.circles.append((x, y, diameter))
+        self.update()
 
 
 if __name__ == '__main__':
