@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e8e17163-189e-42a9-9c37-acbd5c7bb903" name="Changes" comment="ui">
+    <list default="true" id="e8e17163-189e-42a9-9c37-acbd5c7bb903" name="Changes" comment="second task">
       <change beforePath="$PROJECT_DIR$/../../git_project1/git_project1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../git_project1/git_project1/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../git_project1/git_project1/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../git_project1/git_project1/main.py" afterDir="false" />
     </list>
@@ -22,21 +22,21 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../git_project1/git_project1" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "EscapE16"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;EscapE16&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/EscapE16/xangen",
-    "accountId": "95d46285-d2f6-4af7-a661-582998af6be0"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/EscapE16/xangen&quot;,
+    &quot;accountId&quot;: &quot;95d46285-d2f6-4af7-a661-582998af6be0&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 2
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="2pf86PFU1jEtkJ7Ih6ZV4lZUcma" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -115,7 +115,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733149407425</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="second task">
+      <option name="closed" value="true" />
+      <created>1733149925703</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1733149925703</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -133,6 +141,7 @@
     <MESSAGE value="First commit" />
     <MESSAGE value="&#10;second commit" />
     <MESSAGE value="ui" />
-    <option name="LAST_COMMIT_MESSAGE" value="ui" />
+    <MESSAGE value="second task" />
+    <option name="LAST_COMMIT_MESSAGE" value="second task" />
   </component>
 </project>

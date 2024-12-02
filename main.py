@@ -1,11 +1,12 @@
 import io
 import sys
+from random import randint
 
 from PyQt6.QtGui import QPainter, QColor
 from PyQt6.QtCore import Qt, QPoint
 from PyQt6 import uic
 from PyQt6.QtWidgets import QWidget, QApplication, QMainWindow
-import random
+
 
 
 UI = """<?xml version="1.0" encoding="UTF-8"?>
@@ -62,21 +63,22 @@ class Example(QMainWindow):
         f = io.StringIO(UI)
         uic.loadUi(f, self)
         self.circles = []
-
         self.pushButton.clicked.connect(self.run)
+
+    def run(self):
+        diameter = randint(5, 100)
+        x = randint(0, self.width() - diameter)
+        y = randint(0, self.height() - diameter)
+        print(1)
+        color = QColor(randint(0, 255), randint(0, 255), randint(0, 255))
+        self.circles.append((QPoint(x, y), diameter, color))
+        self.update()
 
     def paintEvent(self, event):
         painter = QPainter(self)
-        for circle in self.circles:
-            painter.setBrush(QColor(255, 255, 0))
-            painter.drawEllipse(circle[0], circle[1], circle[2], circle[2])
-
-    def run(self):
-        diameter = random.randint(20, 100)
-        x = random.randint(0, self.width() - diameter)
-        y = random.randint(0, self.height() - diameter)
-        self.circles.append((x, y, diameter))
-        self.update()
+        for (point, diameter, color) in self.circles:
+            painter.setBrush(color)
+            painter.drawEllipse(point, diameter // 2, diameter // 2)
 
 
 if __name__ == '__main__':
