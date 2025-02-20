@@ -26,7 +26,6 @@ class Example(QMainWindow):
         diameter = randint(5, 100)
         x = randint(0, self.width() - diameter)
         y = randint(0, self.height() - diameter)
-        print(1)
         color = QColor(randint(0, 255), randint(0, 255), randint(0, 255))
         self.circles.append((QPoint(x, y), diameter, color))
         self.update()
